@@ -8543,6 +8543,100 @@ gn Goldeneye 007 (U)
   8106026E 007C
   81060270 0800
   81060272 303F
+ cn All Levels P1 (enable only one)\Infinite Health + No-clip (hold L)
+  cd Infinite health plus no-clip. Hold L to pass through walls, release to restore collision. Code injection via hook at 0x800C0F4. Enable only ONE code from this group.
+  8100C0F4 0801
+  8100C0F6 8090
+  8100C0F8 AFA4
+  8100C0FA 0000
+  81060240 0004
+  81060242 7600
+  81060244 3C02
+  81060246 8008
+  81060248 8C42
+  8106024A 9EE0
+  8106024C 3401
+  8106024E 3F80
+  81060250 A441
+  81060252 00DC
+  81060254 3C01
+  81060256 8006
+  81060258 9021
+  8106025A 4F31
+  8106025C 3021
+  8106025E 0020
+  81060260 1020
+  81060262 0006
+  81060264 0000
+  81060266 0000
+  81060268 3401
+  8106026A 0050
+  8106026C A041
+  8106026E 048D
+  81060270 A041
+  81060272 0495
+  81060274 0801
+  81060276 80A1
+  81060278 0000
+  8106027A 0000
+  8106027C A040
+  8106027E 048D
+  81060280 A040
+  81060282 0495
+  81060284 0800
+  81060286 303F
+ cn All Levels P1 (enable only one)\Moonjump + No-clip (hold B + L)
+  cd Moonjump plus no-clip. Hold B to rise after walking off an edge, hold L to pass through walls. Code injection via hook at 0x800C0F4. Enable only ONE code from this group.
+  8100C0F4 0801
+  8100C0F6 8090
+  8100C0F8 AFA4
+  8100C0FA 0000
+  81060240 0004
+  81060242 7600
+  81060244 3C02
+  81060246 8008
+  81060248 8C42
+  8106024A 9EE0
+  8106024C 3C01
+  8106024E 8006
+  81060250 9021
+  81060252 4F30
+  81060254 3021
+  81060256 0040
+  81060258 1020
+  8106025A 0003
+  8106025C 0000
+  8106025E 0000
+  81060260 3401
+  81060262 412B
+  81060264 A441
+  81060266 007C
+  81060268 3C01
+  8106026A 8006
+  8106026C 9021
+  8106026E 4F31
+  81060270 3021
+  81060272 0020
+  81060274 1020
+  81060276 0006
+  81060278 0000
+  8106027A 0000
+  8106027C 3401
+  8106027E 0050
+  81060280 A041
+  81060282 048D
+  81060284 A041
+  81060286 0495
+  81060288 0801
+  8106028A 80A6
+  8106028C 0000
+  8106028E 0000
+  81060290 A040
+  81060292 048D
+  81060294 A040
+  81060296 0495
+  81060298 0800
+  8106029A 303F
  cn All Levels P1 (enable only one)\Infinite Health + Moonjump + No-clip (hold B + L)
   cd Infinite health, moonjump and no-clip. Hold B to rise, hold L to pass through walls. Code injection via hook at 0x800C0F4. Enable only ONE code from this group.
   8100C0F4 0801
@@ -12979,6 +13073,29 @@ gn Perfect Dark (U) (v1.0)
  cn All levels Compleate
   50004002 0000
   810A2218 0001
+ cn Miscellaneous (Hi-Res)\Walk Through Most Doors
+  cd Lets you pass through most locked doors. Use only one door code at a time. Hi-Res only.
+  8022E5FC 0001
+ cn Miscellaneous (Hi-Res)\Walk Through Some Other Doors
+  cd Lets you pass through some other doors. Use only one door code at a time. Hi-Res only.
+  8022E608 0001
+ cn Miscellaneous (Hi-Res)\Walk Through Other Doors
+  cd Lets you pass through other doors. Use only one door code at a time. Hi-Res only.
+  8022E5F8 0001
+ cn Miscellaneous (Hi-Res)\Almost No Collisions
+  cd Removes most prop and environment collisions. Hi-Res only.
+  80285798 0001
+ cn Miscellaneous (Hi-Res)\Infinite Ammo All Clips
+  cd Keeps all weapon magazines full so you never need to reload. Use with Infinite Ammo for best results. Hi-Res only.
+  50001604 0000
+  80207E4F 00FF
+  50001604 0000
+  801EEE4F 00FF
+  50001604 0000
+  801D5E4F 00FF
+ cn Miscellaneous (Hi-Res)\X-Ray Scope All Weapons
+  cd Press L/R to use X-Ray scope with any weapon. Hi-Res only.
+  802C6D6B 0001
  cn Single & Co-Op\Press B To Levitate\Player 1
   cd To activate the moon jump you must Hold B while in the air. You can get in the air by going down steps, or hills or by going off the edge of something
   D009C7E4 0040
@@ -13161,6 +13278,29 @@ gn Perfect Dark (U) (v1.1)
   810B1E2E 004D
  cn Carrington Institute\Have 255 targets destroyed
   810B1E34 00FF
+ cn Miscellaneous (Hi-Res)\Walk Through Most Doors
+  cd Lets you pass through most locked doors. Use only one door code at a time. Hi-Res only.
+  8022E5FC 0001
+ cn Miscellaneous (Hi-Res)\Walk Through Some Other Doors
+  cd Lets you pass through some other doors. Use only one door code at a time. Hi-Res only.
+  8022E608 0001
+ cn Miscellaneous (Hi-Res)\Walk Through Other Doors
+  cd Lets you pass through other doors. Use only one door code at a time. Hi-Res only.
+  8022E5F8 0001
+ cn Miscellaneous (Hi-Res)\Almost No Collisions
+  cd Removes most prop and environment collisions. Hi-Res only.
+  80285798 0001
+ cn Miscellaneous (Hi-Res)\Infinite Ammo All Clips
+  cd Keeps all weapon magazines full so you never need to reload. Use with Infinite Ammo for best results. Hi-Res only.
+  50001604 0000
+  80207E4F 00FF
+  50001604 0000
+  801EEE4F 00FF
+  50001604 0000
+  801D5E4F 00FF
+ cn Miscellaneous (Hi-Res)\X-Ray Scope All Weapons
+  cd Press L/R to use X-Ray scope with any weapon. Hi-Res only.
+  802C6D6B 0001
  cn Single & Co-Op\Press B To Levitate\Player 1
   cd To activate the moon jump you must Hold B while in the air. You can get in the air by going down steps, or hills or by going off the edge of something
   D009C7E4 0040

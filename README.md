@@ -15,15 +15,30 @@ The original cheat file had basic per-level GameShark codes or a single universa
 | X collision | `0x48D` | No-clip |
 | Z collision | `0x495` | No-clip |
 
-Using that, we wrote MIPS assembly code caves that hook the game at `0x800C0F4` and work on every level without needing separate codes per stage. The result is 5 cheats under the **"All Levels P1 (enable only one)"** submenu:
+Using that, we wrote MIPS assembly code caves that hook the game at `0x800C0F4` and work on every level without needing separate codes per stage. The result is 7 cheats under the **"All Levels P1 (enable only one)"** submenu - every possible combination of the three features:
 
 - **Infinite Health** - you simply don't die
 - **Moonjump (hold B)** - hold B to fly upward after stepping off an edge
 - **No-clip (hold L)** - hold L to pass through walls, release to restore collision
-- **Infinite Health + Moonjump (hold B)** - both
+- **Infinite Health + Moonjump (hold B)** - health + moonjump
+- **Infinite Health + No-clip (hold L)** - health + no-clip
+- **Moonjump + No-clip (hold B + L)** - moonjump + no-clip
 - **Infinite Health + Moonjump + No-clip (hold B + L)** - the kitchen sink
 
 These all share one hook point, so only enable one at a time. The submenu naming makes this obvious.
+
+### Perfect Dark (U) v1.0 / v1.1 - Additional single-player cheats
+
+The original cheat file already had the basics (All Weapons, Infinite Ammo, Infinite Health, Infinite Shield, Moon Jump). We added 6 new Hi-Res codes under the **"Miscellaneous (Hi-Res)"** submenu:
+
+- **Walk Through Most Doors** - pass through most locked doors
+- **Walk Through Some Other Doors** - pass through some other doors
+- **Walk Through Other Doors** - pass through other doors
+- **Almost No Collisions** - removes most prop and environment collisions
+- **Infinite Ammo All Clips** - keeps all weapon magazines full (no reloading)
+- **X-Ray Scope All Weapons** - press L/R to use X-Ray scope with any weapon
+
+The door codes each affect different door types. Only enable one door code at a time. These are Hi-Res mode codes only. Both v1.0 and v1.1 ROM versions are covered with identical codes.
 
 ## Why
 
