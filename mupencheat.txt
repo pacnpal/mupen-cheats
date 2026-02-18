@@ -6493,7 +6493,7 @@ gn Disney's Tarzan (U)
 
 crc EC58EABF-AD7C7169-C:45
 gn Donkey Kong 64 (U)
- cn Infinite\Oranges
+ cn Infinite\Ammo
   807FCC45 0096
  cn Infinite\Health
   817FCC4C 041F
@@ -6510,7 +6510,7 @@ gn Donkey Kong 64 (U)
   817FCAD0 000A
  cn Infinite\Camera Film
   807FCC49 0005
- cn Infinite\Ammo
+ cn Infinite\Oranges
   807FCC41 0096
  cn Donkey Kong\Infinite Bananas\Jungle Japes
   817FC95A 03E7
@@ -6625,7 +6625,7 @@ gn Donkey Kong 64 (U)
  cn Tiny\All Golden Bananas\Crystal Caves
   817FCAB6 0064
  cn Tiny\All Golden Bananas\Creepy Castle
-  817FCAA8 0064
+  817FCAB8 0064
  cn Tiny\All Golden Bananas\DK Isle
   817FCABA 0064
  cn Lanky\All Golden Bananas\Jungle Japes
