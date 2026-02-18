@@ -42,7 +42,7 @@ The door codes each affect different door types. Only enable one door code at a 
 
 ## Why
 
-The biggest gaps in the existing GoldenEye cheat database were moonjump and proper no-clip. Both existed as massive per-level GameShark code lists in late-90s FAQs, but nobody had consolidated them into universal codes that just work regardless of what level you're playing. Now they do.
+The standard `mupencheat.txt` that ships with Mupen64Plus has decent coverage but notable gaps - missing moonjump/no-clip for GoldenEye, and missing door bypass/collision removal for Perfect Dark. These codes existed in scattered late-90s GameShark FAQs but were never consolidated into the standard cheat file. Now they are.
 
 ## How to use this
 
@@ -59,4 +59,4 @@ Where to find your existing file depends on your setup:
 
 If you can't find it, just search your computer for `mupencheat.txt` - there should already be one from your emulator install.
 
-Once replaced, open your emulator, load GoldenEye 007 (U), and check the cheats menu. The new codes show up under **"All Levels P1 (enable only one)"**. Only turn on one from that group at a time - they all modify the same spot in memory, so enabling two will break both. Just pick the combo you want.
+Once replaced, open your emulator, load a supported game, and check the cheats menu. The new codes will appear in their respective submenus.
