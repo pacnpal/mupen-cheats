@@ -6493,7 +6493,7 @@ gn Disney's Tarzan (U)
 
 crc EC58EABF-AD7C7169-C:45
 gn Donkey Kong 64 (U)
- cn Donkey Kong\Infinite Ammo
+ cn Infinite\Oranges
   807FCC45 0096
  cn Infinite\Health
   817FCC4C 041F
@@ -6510,7 +6510,7 @@ gn Donkey Kong 64 (U)
   817FCAD0 000A
  cn Infinite\Camera Film
   807FCC49 0005
- cn Infinite\Orange Bombs
+ cn Infinite\Ammo
   807FCC41 0096
  cn Donkey Kong\Infinite Bananas\Jungle Japes
   817FC95A 03E7
@@ -6518,14 +6518,70 @@ gn Donkey Kong 64 (U)
   817FC95C 03E7
  cn Donkey Kong\Infinite Bananas\FactoryLevel
   817FC95E 03E7
- cn Donkey Kong\Infinite Bananas\Galleon Level
-  817FC9BE 03E7
+ cn Donkey Kong\Infinite Bananas\Gloomy Galleon
+  817FC960 03E7
  cn Donkey Kong\Infinite Bananas\Fungi Forest
   817FC962 03E7
  cn Donkey Kong\Infinite Bananas\Creepy Castle
   817FC966 03E7
  cn Donkey Kong\Infinite Bananas\Crystal Caves
   817FC964 03E7
+ cn Diddy\Infinite Bananas\Jungle Japes
+  817FC9B8 03E7
+ cn Diddy\Infinite Bananas\Angry Aztec
+  817FC9BA 03E7
+ cn Diddy\Infinite Bananas\Frantic Factory
+  817FC9BC 03E7
+ cn Diddy\Infinite Bananas\Gloomy Galleon
+  817FC9BE 03E7
+ cn Diddy\Infinite Bananas\Fungi Forest
+  817FC9C0 03E7
+ cn Diddy\Infinite Bananas\Crystal Caves
+  817FC9C2 03E7
+ cn Diddy\Infinite Bananas\Creepy Castle
+  817FC9C4 03E7
+ cn Tiny\Infinite Bananas\Jungle Japes
+  817FCA74 03E7
+ cn Tiny\Infinite Bananas\Angry Aztec
+  817FCA76 03E7
+ cn Tiny\Infinite Bananas\Frantic Factory
+  817FCA78 03E7
+ cn Tiny\Infinite Bananas\Gloomy Galleon
+  817FCA7A 03E7
+ cn Tiny\Infinite Bananas\Fungi Forest
+  817FCA7C 03E7
+ cn Tiny\Infinite Bananas\Crystal Caves
+  817FCA7E 03E7
+ cn Tiny\Infinite Bananas\Creepy Castle
+  817FCA80 03E7
+ cn Lanky\Infinite Bananas\Jungle Japes
+  817FCA16 03E7
+ cn Lanky\Infinite Bananas\Angry Aztec
+  817FCA18 03E7
+ cn Lanky\Infinite Bananas\Frantic Factory
+  817FCA1A 03E7
+ cn Lanky\Infinite Bananas\Gloomy Galleon
+  817FCA1C 03E7
+ cn Lanky\Infinite Bananas\Fungi Forest
+  817FCA1E 03E7
+ cn Lanky\Infinite Bananas\Crystal Caves
+  817FCA20 03E7
+ cn Lanky\Infinite Bananas\Creepy Castle
+  817FCA22 03E7
+ cn Chunky\Infinite Bananas\Jungle Japes
+  817FCAD2 03E7
+ cn Chunky\Infinite Bananas\Angry Aztec
+  817FCAD4 03E7
+ cn Chunky\Infinite Bananas\Frantic Factory
+  817FCAD6 03E7
+ cn Chunky\Infinite Bananas\Gloomy Galleon
+  817FCAD8 03E7
+ cn Chunky\Infinite Bananas\Fungi Forest
+  817FCADA 03E7
+ cn Chunky\Infinite Bananas\Crystal Caves
+  817FCADC 03E7
+ cn Chunky\Infinite Bananas\Creepy Castle
+  817FCADE 03E7
  cn Donkey Kong\All Golden Bananas\Jungle Japes
   817FC992 03E7
  cn Donkey Kong\All Golden Bananas\Angry Aztecs
@@ -6620,6 +6676,9 @@ gn Donkey Kong 64 (U)
   817FC950 0103
  cn Donkey Kong\Have Weapon
   817FC952 0103
+ cn Play As Rambi
+  cd Changes your character model to Rambi the Rhino. Do not pause the game while this is active.
+  8074E77C 0006
  cn Free Pass (Access All Areas)
   cd This is exactly what it says, You can walk through Any Locked Door,Gate, Or Area. Have Fun.
   8066D226 0001

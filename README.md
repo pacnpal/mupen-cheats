@@ -40,9 +40,16 @@ The original cheat file already had the basics (All Weapons, Infinite Ammo, Infi
 
 The door codes each affect different door types. Only enable one door code at a time. These are Hi-Res mode codes only. Both v1.0 and v1.1 ROM versions are covered with identical codes.
 
+### Donkey Kong 64 (U) - Bug fixes and missing codes
+
+The original cheat file had Ammo and Oranges labels swapped, and DK's Gloomy Galleon banana code pointed to the wrong address (Diddy's memory range). We fixed both bugs and added:
+
+- **Per-character banana codes** - Infinite Bananas for all 7 levels for Diddy, Tiny, Lanky, and Chunky (DK already had them)
+- **Play As Rambi** - changes your character model to Rambi the Rhino (don't pause while active)
+
 ## Why
 
-The standard `mupencheat.txt` that ships with Mupen64Plus has decent coverage but notable gaps - missing moonjump/no-clip for GoldenEye, and missing door bypass/collision removal for Perfect Dark. These codes existed in scattered late-90s GameShark FAQs but were never consolidated into the standard cheat file. Now they are.
+The standard `mupencheat.txt` that ships with Mupen64Plus has decent coverage but notable gaps - missing moonjump/no-clip for GoldenEye, missing door bypass/collision removal for Perfect Dark, and bugs plus missing per-character codes for DK64. These codes existed in scattered late-90s GameShark FAQs but were never consolidated correctly into the standard cheat file. Now they are.
 
 ## How to use this
 
